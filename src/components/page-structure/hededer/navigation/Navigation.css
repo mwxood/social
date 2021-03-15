@@ -1,0 +1,22 @@
+.nav-holder  {width: 30%;}
+
+.nav-holder ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-holder li {
+    list-style: none;
+}
+
+.nav-holder a {
+    color: #fff;
+    text-decoration: none;
+    transition: all .3s ease;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.nav-holder a:hover {
+    color: #f1c40f;
+}
