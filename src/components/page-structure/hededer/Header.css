@@ -1,11 +1,17 @@
-.header-holder {
+.header-inner {
     background: #2ecc71;
     padding: 20px;
     color: #fff;
-}
-
-.header-inner {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.banner {
+    margin: 20px 0;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }

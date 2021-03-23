@@ -1,0 +1,22 @@
+.profile-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-image-holder {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image-holder img {
+    height: 120px;
+    max-width: inherit;
+    width: auto;
+}

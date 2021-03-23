@@ -1,0 +1,27 @@
+.dialogs-holder {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.friend-holder {
+    margin-right: 30px;
+    height: 100%;
+    border-right: 1px solid #bdc3c7;
+    padding-right: 20px;
+}
+
+.friend-holder .item {
+  padding: 10px 0;
+}
+
+.message-holder {
+    width: 100%;
+}
+
+.messages .message {
+    padding: 10px;
+    background: #ecf0f1;
+    width: 100%;
+    margin-bottom: 10px;
+}

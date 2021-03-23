@@ -13,6 +13,11 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
 .content-holder {
   height: 100%;
 }
@@ -20,4 +25,36 @@ body {
 .container {
   max-width: 1200px;
   margin: auto;
+  padding: 0 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+}
+
+.input-bg {
+  border: 1px solid #ecf0f1;
+}
+
+.input-bg:focus {
+  border-color: #bdc3c7;
+  outline: none;
+}
+
+.btn {
+  padding: 10px 15px;
+  border: none;
+  text-transform: uppercase;
+  transition: background-color .3s ease;
+  cursor: pointer;
+}
+
+.btn-primary {
+  color: #fff;
+  background: #2ecc71;
+}
+
+.btn-primary:hover {
+  background: #27ae60;
 }
